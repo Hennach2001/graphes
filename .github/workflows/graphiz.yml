@@ -4,8 +4,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Installation
-      run: sudo apt-get install -y graphviz plantuml
+    #- name: Installation
+     # run: sudo apt-get install -y graphviz plantuml
     - name: Check out repository code
       uses: actions/checkout@v3
     - name: Lancement graphviz
