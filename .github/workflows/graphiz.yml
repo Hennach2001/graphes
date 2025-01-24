@@ -2,7 +2,7 @@ name: graphes
 on: [push]
 jobs:  
   build:
-	runs-o: ubuntu-latest
+	runs-on: ubuntu-latest
 	steps:
 	- name: Installation
 	  run: sudo apt-get install -y graphviz plantuml
